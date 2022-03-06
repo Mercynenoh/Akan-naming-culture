@@ -27,5 +27,11 @@ function date() {
     saturday:"Ama",
     sunday:"Akosua"
 }
+let input = document.getElementById("dob").value;
+let date = new Date(input).getUTCDay();
+console.log(date)
+var submit = [' You were born on sunday', 'You were born on monday', 'You were born on tuesday', 'You were born on wednesday', 'You were born on thursday', ' You were born on friday', 'You were born on saturday', 'You were born on sunday'];
+document.getElementById('output').textContent = submit[date];
+
 
 }
