@@ -33,5 +33,18 @@ console.log(date)
 var submit = [' You were born on sunday', 'You were born on monday', 'You were born on tuesday', 'You were born on wednesday', 'You were born on thursday', ' You were born on friday', 'You were born on saturday', 'You were born on sunday'];
 document.getElementById('output').textContent = submit[date];
 
+let gender = document.getElementById("gender").value;
+  console.log(gender);
+
+
+  let f = submit[date];
+
+  if (gender==='male') {
+    var submit = ['Your Akan name is Kwasi', 'Your Akan name is Kwadwo', 'Your Akan name is Kwabena', 'Your Akan name is Kwaku', 'Your Akan name is Yaw', 'Your Akan name is Kofi', 'Your Akan name is Kwame', 'Your Akan name is Kwasi']
+    document.getElementById('output2').textContent = submit[date];
+
+
+    console.log(males[f])
+  }
 
 }
