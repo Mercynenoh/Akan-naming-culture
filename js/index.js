@@ -18,4 +18,14 @@ function date() {
       saturday:"Kwame",
       sunday:"Kwasi"
   }
+  let females ={
+    monday:"Adwoa",
+    tuesday:"Abenaa",
+    wednesday:"Akua",
+    thursday:"Yaa",
+    friday:"Afua",
+    saturday:"Ama",
+    sunday:"Akosua"
+}
+
 }
