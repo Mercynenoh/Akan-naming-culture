@@ -63,5 +63,5 @@ function date() {
   }
 }
 
-confirm("Would you like to continue?")
+// confirm("Would you like to continue?")
 
