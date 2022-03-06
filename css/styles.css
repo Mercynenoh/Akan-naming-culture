@@ -1,10 +1,23 @@
 #float{
-    font-size: 25px;
+    #float{
+ font-size: 25px;
 }
 select{
     width: 130px;
     height: 35px;
     margin: 10px;
-
 }
 
+h1{
+    color: #3c5f5f ;
+}
+h2{
+    color:red;
+}
+.container-fluid{
+    background:linear-gradient(to right ,rgb(248, 244, 244) ,rgb(180, 90, 165));
+}
+
+.card-body{
+    background-color:rgb(28, 172, 148);
+}
