@@ -46,5 +46,12 @@ let gender = document.getElementById("gender").value;
 
     console.log(males[f])
   }
+    if (gender === 'female') {
+      var submit = ['Your Akan name is Akosua', 'Your Akan name is Adwoa', 'Your Akan name is Abenaa', 'Your Akan name is Akua', 'Your Akan name is Yaa', 'Your Akan name is Afua', 'Your Akan name is Ama', 'Your Akan name is Akosua']
+      document.getElementById('output2').textContent = submit[date];
+
+      console.log(females[f])
+  }
+  }
 
 }
