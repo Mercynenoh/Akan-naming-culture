@@ -5,33 +5,14 @@ function date() {
 let input = month + "/" + day + "/" + year
   let date = new Date(input).getDay();
   console.log(date)
-  var submit = ['You were born on sunday', 'You were born on monday', 'You were born on tuesday', 'You were born on wednesday', 'You were born on thursday', ' You were born on friday', 'You were born on saturday', 'You were born on sunday'];
+  var submit = ['You were born on sunday', 'You were born on monday', 'You were born on tuesday', 'You were born on wednesday', 'You were born on thursday', ' You were born on friday', 'You were born on saturday'];
   document.getElementById('output').textContent = submit[date];
    
 
-
-
-  let males = {
-      monday:"Kwadwo",
-      tuesday:"kwabena",
-      wednesday:"Kwaku",
-      thursday:"Yaw",
-      friday:"Kofi",
-      saturday:"Kwame",
-      sunday:"Kwasi"
-  }
-
-
-
-  let females ={
-      monday:"Adwoa",
-      tuesday:"Abenaa",
-      wednesday:"Akua",
-      thursday:"Yaa",
-      friday:"Afua",
-      saturday:"Ama",
-      sunday:"Akosua"
-  }
+  let males = ["Kwadwo","kwabena","Kwaku","Yaw","Kofi","Kwame","Kwasi"]
+    
+  let females =["Adwoa","Abenaa","Akua","Yaa","Afua","Ama","Akosua"]
+    
 
   let gender = document.getElementById("gender").value;
   console.log(gender);
